@@ -1,0 +1,31 @@
+[
+    {
+        "idQuestion": "Menopause impacts on your life: (low to high)",
+        "type": "single",
+        "options": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "idQuestion": "Symptoms you are currently experiencing:",
+        "type": "multiple",
+        "options": [
+            "Hot flashes",
+            "Mood changes",
+            "Sleep disturbances",
+            "Changes in skin, hair or nails"
+        ]
+    },
+    {
+        "idQuestion": "Are you still menstruating?",
+        "type": "single",
+        "options": [
+            "yes",
+            "no"
+        ]
+    }
+]
