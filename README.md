@@ -5,6 +5,7 @@ Created by: Oscar Marquez
 In the project directory, you can run:
 
 `npm install`
+
 `cd server && npm install`
 
 ## Available Scripts
