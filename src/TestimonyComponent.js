@@ -46,7 +46,7 @@ export default class TestimonyComponent extends React.Component {
     console.log('handleSubmitTestimony submitted: ',this.state);
 
     if(this.state.age === null || this.state.testimony === null || this.state.selectedFile === null){
-      alert("You must select fields.")
+      alert("You must select all fields.")
     }
     else{
 
