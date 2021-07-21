@@ -46,18 +46,18 @@ export default class TestimonyComponent extends React.Component {
     console.log('handleSubmitTestimony submitted: ',this.state);
 
     if(this.state.age === null || this.state.testimony === null || this.state.selectedFile === null){
-      alert("SELECCIONA ALGO")
+      alert("You must select fields.")
     }
     else{
 
         SaveTestimony(this.state.age, this.state.testimony, this.state.selectedFile,(err,response)=>{
-
-            console.log("SaveTestimony=",err,response)
-
-            if(err)
-                alert(err)
-
-            
+          console.log("SaveTestimony=",err,response)
+          if(err){
+            alert(err)
+          }
+          else{
+            alert("Saved.")
+          }
         })
     } 
 

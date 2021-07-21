@@ -87,7 +87,12 @@ export default class FormComponent extends React.Component {
     else{
       SaveSurvey(this.state.answers,(err,response)=>{
         console.log("SaveSurvey",err,response);
-        alert("Saved.")
+        if(err){
+          alert(err)
+        }
+        else{
+          alert("Saved.")
+        }
       })
     }
   }
