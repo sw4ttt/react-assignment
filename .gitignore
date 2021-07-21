@@ -8,6 +8,9 @@
 /.pnp
 .pnp.js
 
+/public/data
+/public/images
+
 # testing
 /coverage
 
