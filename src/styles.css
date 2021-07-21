@@ -1,0 +1,60 @@
+body {
+  font-size: 20px;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+th.line {
+  border-right: 1px solid grey;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+}
+
+th.box {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: grey;
+  text-align: center;
+}
+
+img {
+  width:100px;
+}
+
+div.space {
+  padding-top: 40px;
+}
+
+label.space {
+  padding-right: 30px;
+}
+
+div.center {
+  text-align: center;
+}
+
+form.center {
+  text-align: center;
+}
+
+div.questionText {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+span.smallText {
+  font-size: 20px;
+}
+
+th.paddingAll {
+  padding: 20px;
+}
+
