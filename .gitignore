@@ -4,12 +4,11 @@
 /node_modules
 /server/node_modules
 /server/temp-files
-/server/temp-files
 /.pnp
 .pnp.js
 
-/public/data
-/public/images
+/server/public/data
+/server/public/images
 
 # testing
 /coverage
