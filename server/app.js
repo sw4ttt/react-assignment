@@ -12,7 +12,10 @@ app.use(express.static(path.join(__dirname, "..", "build")));
 
 app.use(express.static("public"));
 
-
+try {
+  fs.mkdirSync('./temp-files');
+} catch (ex) {
+}
 
 app.use(morgan('dev'));
 app.use(express.json());
@@ -20,6 +23,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(multipart({
   uploadDir: "./temp-files"
 }));
+
 
 fs.readdir("./temp-files", (err, files) => {
   if (err) throw err;
@@ -30,6 +34,8 @@ fs.readdir("./temp-files", (err, files) => {
     });
   }
 });
+
+
 
 
 var surveyController = require('./api/survey.controller');
